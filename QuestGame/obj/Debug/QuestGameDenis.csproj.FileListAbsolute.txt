@@ -1,12 +1,1 @@
-C:\GitHub\QuestGameDenis\QuestGame\bin\Debug\QuestGame.exe.config
-C:\GitHub\QuestGameDenis\QuestGame\obj\Debug\QuestGame.exe
-C:\GitHub\QuestGameDenis\QuestGame\obj\Debug\QuestGame.pdb
 C:\GitHub\QwestByDenis\QuestGame\bin\Debug\QuestGame.exe.config
-C:\GitHub\QwestByDenis\QuestGame\obj\Debug\QuestGame.exe
-C:\GitHub\QwestByDenis\QuestGame\obj\Debug\QuestGame.pdb
-C:\GitHub\QwestByDenis\QuestGame\bin\Debug\QuestGame.exe
-C:\GitHub\QwestByDenis\QuestGame\bin\Debug\QuestGame.pdb
-C:\GitHub\QwestByDenis\QuestGame\obj\Debug\QuestGameDenis.csprojResolveAssemblyReference.cache
-C:\GitHub\QwestByDenis\QuestGame\obj\Debug\QuestGame.Form1.resources
-C:\GitHub\QwestByDenis\QuestGame\obj\Debug\QuestGame.Properties.Resources.resources
-C:\GitHub\QwestByDenis\QuestGame\obj\Debug\QuestGameDenis.csproj.GenerateResource.Cache
