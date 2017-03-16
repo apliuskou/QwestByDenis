@@ -1,0 +1,3 @@
+C:\GitHub\QuestGameDenis\QuestGame\bin\Debug\QuestGame.exe.config
+C:\GitHub\QuestGameDenis\QuestGame\obj\Debug\QuestGame.exe
+C:\GitHub\QuestGameDenis\QuestGame\obj\Debug\QuestGame.pdb
