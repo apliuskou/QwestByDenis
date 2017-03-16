@@ -1,0 +1,8 @@
+
+QuestGame/bin/Debug/
+
+*.exe
+
+QuestGame/obj/Debug/
+
+\.vs/QuestGameDenis/v14/
