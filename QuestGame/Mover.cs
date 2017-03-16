@@ -32,6 +32,11 @@ namespace QuestGame
                 case Direction.Up:
                     newPoint.X = currentPoint.X;
                     newPoint.Y = currentPoint.Y - 10;
+                    if (newPoint.Y < 55)
+                    {
+                        newPoint.Y = 55;
+                    }
+
                     Box.Location = newPoint;
                     break;
 
@@ -39,9 +44,35 @@ namespace QuestGame
                 case Direction.Down:
                     newPoint.X = currentPoint.X;
                     newPoint.Y = currentPoint.Y + 10;
+                    if (newPoint.Y > 206)
+                    {
+                        newPoint.Y = 206;
+                    }
+
                     Box.Location = newPoint;
                     break;
 
+                case Direction.Left:
+                    newPoint.X = currentPoint.X - 10;
+                    newPoint.Y = currentPoint.Y;
+                    if (newPoint.X < 74)
+                    {
+                        newPoint.X = 74;
+                    }
+
+                    Box.Location = newPoint;
+                    break;
+
+                case Direction.Right:
+                    newPoint.X = currentPoint.X + 10;
+                    newPoint.Y = currentPoint.Y;
+                    if (newPoint.X > 487)
+                    {
+                        newPoint.X = 487;
+                    }
+
+                    Box.Location = newPoint;
+                    break;
 
 
             }

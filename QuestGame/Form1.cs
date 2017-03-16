@@ -17,22 +17,32 @@ namespace QuestGame
         public Form1()
         {
             InitializeComponent();
-            game = new Game(playerPictureBox);
+            game = new Game(playerPictureBox, batPictureBox);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)//Unuseful method
         {
 
         }
 
         private void buttonUp_Click(object sender, EventArgs e)
         {
-            game.MakeMove(Direction.Up);
+            game.MakeTurn(Direction.Up);
         }
 
         private void buttonDown_Click(object sender, EventArgs e)
         {
-            game.MakeMove(Direction.Down);
+            game.MakeTurn(Direction.Down);
+        }
+
+        private void buttonLeft_Click(object sender, EventArgs e)
+        {
+            game.MakeTurn(Direction.Left);
+        }
+
+        private void buttonRight_Click(object sender, EventArgs e)
+        {
+            game.MakeTurn(Direction.Right);
         }
     }
 }
