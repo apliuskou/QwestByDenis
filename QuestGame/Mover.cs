@@ -34,6 +34,16 @@ namespace QuestGame
                     newPoint.Y = currentPoint.Y - 10;
                     Box.Location = newPoint;
                     break;
+
+
+                case Direction.Down:
+                    newPoint.X = currentPoint.X;
+                    newPoint.Y = currentPoint.Y + 10;
+                    Box.Location = newPoint;
+                    break;
+
+
+
             }
         }
     }

@@ -39,9 +39,10 @@
             // 
             // buttonUp
             // 
-            this.buttonUp.Location = new System.Drawing.Point(769, 34);
+            this.buttonUp.Location = new System.Drawing.Point(384, 18);
+            this.buttonUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonUp.Name = "buttonUp";
-            this.buttonUp.Size = new System.Drawing.Size(121, 52);
+            this.buttonUp.Size = new System.Drawing.Size(60, 27);
             this.buttonUp.TabIndex = 0;
             this.buttonUp.Text = "Up";
             this.buttonUp.UseVisualStyleBackColor = true;
@@ -49,27 +50,31 @@
             // 
             // buttonDown
             // 
-            this.buttonDown.Location = new System.Drawing.Point(769, 107);
+            this.buttonDown.Location = new System.Drawing.Point(384, 56);
+            this.buttonDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonDown.Name = "buttonDown";
-            this.buttonDown.Size = new System.Drawing.Size(121, 53);
+            this.buttonDown.Size = new System.Drawing.Size(60, 28);
             this.buttonDown.TabIndex = 1;
             this.buttonDown.Text = "Down";
             this.buttonDown.UseVisualStyleBackColor = true;
+            this.buttonDown.Click += new System.EventHandler(this.buttonDown_Click);
             // 
             // buttonLeft
             // 
-            this.buttonLeft.Location = new System.Drawing.Point(637, 75);
+            this.buttonLeft.Location = new System.Drawing.Point(318, 39);
+            this.buttonLeft.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonLeft.Name = "buttonLeft";
-            this.buttonLeft.Size = new System.Drawing.Size(116, 55);
+            this.buttonLeft.Size = new System.Drawing.Size(58, 29);
             this.buttonLeft.TabIndex = 2;
             this.buttonLeft.Text = "Left";
             this.buttonLeft.UseVisualStyleBackColor = true;
             // 
             // buttonRight
             // 
-            this.buttonRight.Location = new System.Drawing.Point(914, 79);
+            this.buttonRight.Location = new System.Drawing.Point(457, 41);
+            this.buttonRight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonRight.Name = "buttonRight";
-            this.buttonRight.Size = new System.Drawing.Size(125, 51);
+            this.buttonRight.Size = new System.Drawing.Size(62, 27);
             this.buttonRight.TabIndex = 3;
             this.buttonRight.Text = "Right";
             this.buttonRight.UseVisualStyleBackColor = true;
@@ -80,25 +85,25 @@
             this.playerPictureBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("playerPictureBox.BackgroundImage")));
             this.playerPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.playerPictureBox.InitialImage = ((System.Drawing.Image)(resources.GetObject("playerPictureBox.InitialImage")));
-            this.playerPictureBox.Location = new System.Drawing.Point(84, 63);
+            this.playerPictureBox.Location = new System.Drawing.Point(42, 33);
+            this.playerPictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.playerPictureBox.Name = "playerPictureBox";
-            this.playerPictureBox.Size = new System.Drawing.Size(76, 75);
+            this.playerPictureBox.Size = new System.Drawing.Size(38, 39);
             this.playerPictureBox.TabIndex = 4;
             this.playerPictureBox.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::QuestGame.Properties.Resources.dungeon600x400;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1265, 588);
+            this.ClientSize = new System.Drawing.Size(632, 306);
             this.Controls.Add(this.playerPictureBox);
             this.Controls.Add(this.buttonRight);
             this.Controls.Add(this.buttonLeft);
             this.Controls.Add(this.buttonDown);
             this.Controls.Add(this.buttonUp);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

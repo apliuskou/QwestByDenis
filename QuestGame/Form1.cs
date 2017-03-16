@@ -29,5 +29,10 @@ namespace QuestGame
         {
             game.MakeMove(Direction.Up);
         }
+
+        private void buttonDown_Click(object sender, EventArgs e)
+        {
+            game.MakeMove(Direction.Down);
+        }
     }
 }
